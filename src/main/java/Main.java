@@ -7,8 +7,8 @@ public class Main {
         String str = scan.nextLine();
         String[] numbers = str.split("\\s+");
 
-        for(String number : numbers){
-            if((Integer.parseInt(number) % 3 == 0)){
+        for(String number : numbers) {
+            if(Integer.parseInt(number) % 3 == 0) {
                 System.out.print(number + " ");
             }
         }
